@@ -1,0 +1,27 @@
+{
+  "name": "web3.0_pr_clean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  {
+    "scripts": {
+      "start": "cd frontend && npm run dev",
+      "build": "cd frontend && npm run build",
+      "frontend:install": "cd frontend && npm install",
+      "contracts:install": "cd contracts && npm install",
+      "node": "cd contracts && npx hardhat node",
+      "compile": "cd contracts && npx hardhat compile",
+      "test": "cd contracts && npx hardhat test",
+      "deploy:local": "cd contracts && npx hardhat run scripts/deploy.js --network localhost",
+      "deploy:sepolia": "cd contracts && npx hardhat run scripts/deploy.js --network sepolia"
+    }
+  }
+
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"type": "commonjs"
+}
