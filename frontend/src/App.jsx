@@ -23,7 +23,7 @@ export default function App() {
               Send Crypto <br /> across the world
             </h1>
 
-            <p className="text-left mt-5 text-gray-400 font-light md:w-9/12 w-11/12 text-base">
+            <p className="text-left mt-5 text-gray-300 font-light md:w-9/12 w-11/12 text-base">
               Explore the crypto world. Buy and send cryptocurrencies easily
               on Krypt. Built for the modern Web3 ecosystem.
             </p>
