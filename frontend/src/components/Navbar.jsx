@@ -42,7 +42,7 @@ export default function Navbar() {
             className={`fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 transition-all duration-500 z-50
             ${isScrolled
                     ? "bg-white/80 shadow-md backdrop-blur-lg text-gray-800 py-3"
-                    : "bg-indigo-600 text-white py-4"
+                    : "bg-indigo-700 text-white py-4"
                 }`}
         >
 
